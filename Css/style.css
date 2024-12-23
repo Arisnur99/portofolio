@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    font-family: Poppins , sans-serif;
+    padding: 10px;
+   scroll-behavior: smooth;
+    
+  }
+  .judul , h2{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+  }
+
+
+  .header  {
+    padding:20px  ;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    
+  }
+  .alamat{
+   margin-top: -100px;
+   margin-left: 100px;
+  }
+  .header img {
+    position: left;
+  }
+  .header h1 {
+    font-size: 50px;
+    
+  }
+.header p {
+  font-size: 20px;
+ font-variant: small-caps;
+}
+.class p {
+  font-size: 20px;
+}
+h2 {
+  font-size: 50px;
+}
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #056102;
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    
+    
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #033801;
+    color: (#f2f2f2);
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+    width: 90%;
+  }
+  
+  /* Right column */
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #50db26;
+    width: 100%;
+    padding: 20px;
+    border-radius: 60px;
+ 
+  }
+  .tulisan {
+    background-color: #50db26;
+    border-radius: 60px;
+  }
+
+   .font {
+    background-color: #50db26;
+   border-radius: 60px;
+   } 
+   
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 10px;
+   
+    
+  }
+  .card h2 {
+    font-size: 30px;
+  }
+ 
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+ height: 10px;
+
+  }
+ .foto {
+  text-align: center;
+ }
+  .footer h2 {
+    font-size: 30px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 100px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.sosmed , a{
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tutup {
+  font-style: italic;
+  color: #f2f2f2;
+}
