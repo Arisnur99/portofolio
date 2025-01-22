@@ -78,8 +78,9 @@ body {
  border-radius: 30px;
  margin-bottom: 70px;
  margin-left: 130px;
- margin-right: 100px;
- padding-bottom: 30px;
+ margin-right: 115px;
+ padding-bottom: 20px;
+ padding-top: 5px;
 } 
 .rapih {
   display: inline block;
@@ -93,9 +94,9 @@ body {
 .leftcolumn2 {
   width: 1000px;
   padding-left: 100px;
-  background-image: url(https://portalberita.stekom.ac.id/assets/images/berita/langkah-ke-depan-pengantaran-x-banner-pmb-univ-stekom-di-smk-bina-nusantara-semarang-smk-texmaco-semarang.jpg?t=);
+  background-image:  url(https://portalberita.stekom.ac.id/assets/images/berita/langkah-ke-depan-pengantaran-x-banner-pmb-univ-stekom-di-smk-bina-nusantara-semarang-smk-texmaco-semarang.jpg?t=);
   margin-left: 90px;
-
+  background-position: center;
 }
 .carousel {
   position: relative;
@@ -117,7 +118,7 @@ background-color: #3de00b;
 border-radius: 40px;
 margin: 50px;
 }
-/* Slide Gambar */
+
 .carousel-slide {
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -128,7 +129,6 @@ margin: 50px;
   border-radius: 10px;
 }
 
-/* Tombol Navigasi */
 .prev,
 .next {
   position: absolute;
@@ -156,7 +156,6 @@ margin: 50px;
   right: 10px;
 }
 
-/* Indikator Slide */
 .dots {
   text-align: center;
   margin-top: 10px;
@@ -177,7 +176,7 @@ margin: 50px;
 .dot:hover {
   background-color: #717171;
 }
-/* ======= Footer Styles ======= */
+
 .footer {
   background-color: #176604;
   color: #ffffff;
@@ -226,7 +225,6 @@ margin: 50px;
   margin-top: 10px;
 }
 
-/* Responsive Design for Mobile Devices */
 @media (max-width: 768px) {
   body {
     font-size: 14px;
@@ -263,6 +261,7 @@ margin: 50px;
   .leftcolumn2 {
     background-size: cover;
     background-position: center;
+    
   }
 
   .carousel {
