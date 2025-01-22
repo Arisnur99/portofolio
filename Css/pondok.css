@@ -63,25 +63,25 @@ body {
   background-color: #3de00b;
 }
 .fakeimg1 {
- width: 1000px;
- padding-left: 50px;
- background-color: #3de00b;
- border-radius: 30px;
- margin-left: 130px;
- align-content: center;
- padding-bottom: 30px;
- padding-right: 50px;
- margin-bottom: 70px;
+  width: 1000px;
+  padding-left: 50px;
+  background-color: #3de00b;
+  border-radius: 30px;
+  margin-left: 130px;
+  align-content: center;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  margin-bottom: 70px;
 }
 .card2 {
- background-color: #3de00b;
- border-radius: 30px;
- margin-bottom: 70px;
- margin-left: 130px;
- margin-right: 115px;
- padding-bottom: 20px;
- padding-top: 5px;
-} 
+  background-color: #3de00b;
+  border-radius: 30px;
+  margin-bottom: 70px;
+  margin-left: 130px;
+  margin-right: 115px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
 .rapih {
   display: inline block;
   text-align: left;
@@ -93,10 +93,13 @@ body {
 }
 .leftcolumn2 {
   width: 1000px;
-  padding-left: 100px;
-  background-image:  url(https://portalberita.stekom.ac.id/assets/images/berita/langkah-ke-depan-pengantaran-x-banner-pmb-univ-stekom-di-smk-bina-nusantara-semarang-smk-texmaco-semarang.jpg?t=);
-  margin-left: 90px;
-  background-position: center;
+  margin-left: 150px;
+  background-color: #3de00b;
+  border-radius: 40px;
+  padding: 40px;
+  padding-top: 15px;
+  padding-left: 25px;
+
 }
 .carousel {
   position: relative;
@@ -109,14 +112,14 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .tulisan {
-background-color: #3de00b;
-border-radius: 40px;
-margin: 50px;
+  background-color: #3de00b;
+  border-radius: 40px;
+  margin: 50px;
 }
 .foto {
-background-color: #3de00b;
-border-radius: 40px;
-margin: 50px;
+  background-color: #3de00b;
+  border-radius: 40px;
+  margin: 50px;
 }
 
 .carousel-slide {
@@ -250,7 +253,10 @@ margin: 50px;
     text-align: center;
   }
 
-  .fakeimg1, .card2, .tujuan, .leftcolumn2 {
+  .fakeimg1,
+  .card2,
+  .tujuan,
+  .leftcolumn2 {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -261,7 +267,6 @@ margin: 50px;
   .leftcolumn2 {
     background-size: cover;
     background-position: center;
-    
   }
 
   .carousel {
@@ -273,7 +278,8 @@ margin: 50px;
     height: auto;
   }
 
-  .prev, .next {
+  .prev,
+  .next {
     padding: 5px;
     font-size: 14px;
   }
@@ -317,7 +323,8 @@ margin: 50px;
     height: 500px;
   }
 
-  .prev, .next {
+  .prev,
+  .next {
     font-size: 12px;
   }
 
