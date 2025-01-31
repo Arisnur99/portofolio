@@ -11,6 +11,7 @@ body {
   background-color: #176604;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .navbar .logo {
   display: flex;
   align-items: center;
@@ -99,7 +100,6 @@ body {
   padding: 40px;
   padding-top: 15px;
   padding-left: 25px;
-
 }
 .carousel {
   position: relative;
@@ -277,7 +277,12 @@ body {
   .carousel-slide img {
     height: auto;
   }
-
+  .mburi {
+    text-align: justify;
+  }
+  .fakeimg2 {
+    text-align: justify;
+  }
   .prev,
   .next {
     padding: 5px;
@@ -304,6 +309,7 @@ body {
     width: 30px;
     height: 30px;
   }
+  
 }
 
 @media (max-width: 480px) {
